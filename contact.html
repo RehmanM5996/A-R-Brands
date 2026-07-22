@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — A-R Cosmetics</title>
+<meta name="description" content="Send AURELLE a question about an order, ingredient or shade match. Our team replies within 1-2 business days." />
+<link rel="icon" type="image/png" href="favicon-32.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">A-R<span>Cosmetics</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="shop.html">Shop</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-primary header-cta">Book a Consult</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Contact</p>
+      <h1>Have a question? We'd like to hear it</h1>
+      <p class="lede">Whether it's an order issue, an ingredient question, or help finding your shade — write to us below and our team will get back to you personally.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="contact-layout">
+
+        <div>
+          <h2 class="mt-0">Send a query</h2>
+          <p>Fill in the form and submit — your message is sent straight to our team, and we'll reply to the email address you provide.</p>
+
+          <form id="contact-form" action="https://formspree.io/f/mrevzryq" method="POST">
+            <div class="form-field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" placeholder="you@email.com" required />
+            </div>
+
+            <div class="form-field">
+              <label for="topic">What's this about?</label>
+              <select id="topic" name="topic">
+                <option>General question</option>
+                <option>Order or shipping</option>
+                <option>Shade matching help</option>
+                <option>Ingredients / allergies</option>
+                <option>Wholesale or press</option>
+                <option>Something else</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Your query</label>
+              <textarea id="message" name="message" placeholder="Tell us what's on your mind…" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit Query</button>
+            <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+
+        <div>
+          <h2 class="mt-0">Other ways to reach us</h2>
+          <ul class="contact-info-list">
+            <li><span class="k">Email</span><a href="mailto:justpersonel1326@gmail.com">justpersonel1326@gmail.com</a></li>
+            <li><span class="k">Phone</span><a href="tel:+923173992419">+92317-3992419</a></li>
+            <li><span class="k">Studio</span><span>A-R Cosmetics — Old Tomato Factory, Ghullamullah Road (Near Sports Stadium), Makli, Thatta, Sindh. </span></li>
+            <li><span class="k">Hours</span><span>Mon–Fri, 9am–6pm EST</span></li>
+          </ul>
+
+          <h2>Frequently asked</h2>
+          <div class="faq-list">
+            <div class="faq-item">
+              <button class="faq-question">How long until I hear back? <span class="faq-plus">+</span></button>
+              <div class="faq-answer"><p>Our team replies to every query within 1–2 business days, usually sooner.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Can you help me find my shade? <span class="faq-plus">+</span></button>
+              <div class="faq-answer"><p>Yes — mention your undertone and a shade you currently wear in your message, and our shade lead will recommend a match.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Do you offer wholesale accounts? <span class="faq-plus">+</span></button>
+              <div class="faq-answer"><p>We do. Select "Wholesale or press" in the form and include your business details.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">Where can I check ingredient lists? <span class="faq-plus">+</span></button>
+              <div class="faq-answer"><p>Full INCI lists are on every product page in the Shop. Write in if you need help reading one.</p></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-logo">A-R Cosmetics</p>
+        <p>Clean cosmetics, formulated with intention. Skincare, makeup, fragrance and haircare for every skin tone.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html#skincare">Skincare</a></li>
+          <li><a href="shop.html#makeup">Makeup</a></li>
+          <li><a href="shop.html#fragrance">Fragrance</a></li>
+          <li><a href="shop.html#haircare">Haircare</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="mailto:justpersonel1326@gmail.com" target="blank">justpersonel1326@gmail.com</a></li>
+          <li><a href="tel:+923173992419" target="blank">+92317-3992419</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> A-R Cosmetics. All rights reserved.</span>
+      <span>Made with care, for every shade.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
