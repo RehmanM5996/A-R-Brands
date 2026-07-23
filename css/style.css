@@ -571,6 +571,16 @@ textarea:focus-visible, select:focus-visible, button:focus-visible {
   font-size: 1.4rem;
   color: var(--white);
 }
+/* 👇 yeh naya code yahan paste karo 👇 */
+.team-avatar {
+  overflow: hidden;
+}
+.team-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* 👆 yahan tak 👆 */
 .team-card .role { font-family: var(--font-mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--espresso-soft); }
 
 /* Contact page -------------------------------------------------------------- */
